@@ -30,6 +30,6 @@ async function getNote(){
 
 async function writeNote(){
     const note = document.getElementById("inputNote").value;
-    console.log(note);
+    //console.log(note);
     await contract.writeNote(note);
 }
